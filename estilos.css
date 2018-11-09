@@ -1,0 +1,57 @@
+body {
+margin: 0;
+}
+#vermelha {
+    width: 600px;
+    height: 350px;
+    background-color: red;
+}
+#amarela {
+    width: 300px;
+    height:350px;
+    background-color: yellow;
+}
+#verde {
+    width: 300px;
+    height: 350px;
+    background-color: green;
+}
+#rosa{
+    width: 300px;
+    height: 350px;
+    background-color: hotpink;
+     
+}
+#centro {
+    display: flex;
+    justify-content: space-between;
+}
+#mãe {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    width: 300 px;
+    height:400 px;
+}
+#logo {
+    width: 100px;
+}
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+    
+}
+#itens-menu {
+    display: flex;
+    list-style: none;
+}
+#itens-menu li {
+    margin: 0 10px; 
+}
+#linhas {
+    font-size: 34px;
+}
+#titulo {
+    font-size: 45px;
